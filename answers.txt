@@ -2,3 +2,28 @@
 •What does fast-forward in Git mean?
 •Why should you have different branches?
 •In a project how many remote Git repositories do you usually have?
+
+Answers:
+a)gitignore file is a text file that contains the names of files to be ignored when committing the project in GitHub. An example of gitignore file for java projet is
+*.class
+*.jar
+*.war
+*.ear
+# generated files
+bin/**
+gen/**
+# project based files
+.idea/
+*.iml
+*.ipr
+*.iws
+build/
+bin/
+
+b) During a merge, git simplifies the merge by moving the pointer forward when there is no conflicts between branches. this is called as fast fowrward.
+
+c) In a project, branches help the team members to maintain their own code isolated from the main code (source code).
+
+d) You can have multiple repositories for a single project based on the size of the project. but we can have only one "origin" repository.
+
+
